@@ -17,7 +17,6 @@ class Triangle
     else
       :scalene
     end
-    binding.pry
   end
 
   def zero?
