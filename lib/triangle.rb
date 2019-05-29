@@ -29,6 +29,5 @@ class Triangle
     #               (side_one + side_three > side_two) ]
 
   class TriangleError < StandardError
-
   end
 end
