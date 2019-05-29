@@ -20,9 +20,9 @@ class Triangle
   end
 
   def zero?
+    binding.pry
     arr = [side_one, side_two, side_three]
     arr.any?{|side| side == 0}
-    binding.pry
   end
 
   # def legal_triangle
