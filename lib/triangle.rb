@@ -19,10 +19,10 @@ class Triangle
     end
   end
 
-  def zero?
-    arr = [side_one, side_two, side_three]
-    raise TriangleError if arr.any?{|side| side <= 0}
-  end
+  # def zero?
+  #   arr = [side_one, side_two, side_three]
+  #   raise TriangleError if arr.any?{|side| side <= 0}
+  # end
 
   # def legal_triangle
     # triangle = [ (side_one + side_two > side_three),
