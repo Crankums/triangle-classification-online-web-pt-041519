@@ -16,7 +16,7 @@ class Triangle
 
   def zero?
     arr = [side_one, side_two, side_three]
-    arr.any?(0)
+    arr.any?(/[0]/)
   end
 
   # def legal_triangle
