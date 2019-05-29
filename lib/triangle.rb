@@ -18,12 +18,12 @@ class Triangle
     arr = [side_one, side_two, side_three]
     arr.any?(0)
   end
-  
+
   # def legal_triangle
     # triangle = [ (side_one + side_two > side_three),
     #               (side_two + side_three > side_one),
     #               (side_one + side_three > side_two) ]
-    
+
   class TriangleError < StandardError
 
   end
