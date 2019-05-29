@@ -8,13 +8,14 @@ class Triangle
   end
 
   def kind
-    zero?
-    if side_one == side_two && side_two == side_three
-      :equilateral
-    elsif side_one == side_two || side_two == side_three || side_one == side_three
-      :isosceles
-    else
-      :scalene
+    if zero?
+      if side_one == side_two && side_two == side_three
+        :equilateral
+      elsif side_one == side_two || side_two == side_three || side_one == side_three
+        :isosceles
+      else
+        :scalene
+      end
     end
   end
 
