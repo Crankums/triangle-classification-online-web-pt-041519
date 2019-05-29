@@ -17,10 +17,10 @@ class Triangle
     else
       :scalene
     end
+    binding.pry
   end
 
   def zero?
-    binding.pry
     arr = [side_one, side_two, side_three]
     arr.any?{|side| side == 0}
   end
