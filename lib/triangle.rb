@@ -29,7 +29,7 @@ class Triangle
     #               (side_two + side_three > side_one),
     #               (side_one + side_three > side_two) ]
 
-  
+
 end
 
 class TriangleError < StandardError
