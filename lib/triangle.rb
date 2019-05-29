@@ -19,9 +19,9 @@ class Triangle
       end
   end
 
-  def zero?
-    arr = [side_one, side_two, side_three]
-  end
+  # def zero?
+  #   arr = [side_one, side_two, side_three]
+  # end
 
   # def legal_triangle
     # triangle = [ (side_one + side_two > side_three),
